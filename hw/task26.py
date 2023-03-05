@@ -5,7 +5,7 @@
 # A = 2; B = 3 -> 8
 
 def mult_recursive(a, b):
-    if type(a) != int or a < 1 or type(b) != int or b < 1:
+    if type(a) != int or a < 0 or type(b) != int or b < 0:
         return None
     if b == 0:
         return 1
